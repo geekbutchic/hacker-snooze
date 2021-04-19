@@ -1,34 +1,49 @@
 html {
   box-sizing: border-box;
-  background-image: url("https://wallpapercave.com/wp/wp7139831.jpg");
+  background-image: url(https://cdna1.zoeysite.com/Adzpo594RQGDpLcjBynL1z/cache=expiry:31536000//auto_image/compress/https://s3.amazonaws.com/zcom-media/sites/a0i0L00000UVEzvQAH/media/catalog/product/C/6/C6707-NEWSPRINT_CAT_NEWSPAPER.jpg);
 }
 
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 5px;
   box-sizing: inherit;
 }
 
-.header {
-    font-size: 1.5em;
-    color: rgb(95, 248, 6);
-    margin: 10px;
-    padding: 5px;
+.heading-parent {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: auto;
 }
 
-.container {
-    margin: 10px;
-    padding: 5px;
+#heading-title {
+  font-size: 2em;
+  color: rgb(247, 46, 220);
 }
 
-.story-link {
-    color: rgb(9, 243, 243);
-    font-size: 1.5em;
-    text-decoration: none;
-    
+.sub-titles {
+  color: rgb(14, 12, 124);
+  font-size: 1em;
+  margin: auto;
+  padding-right: 1rem;
 }
 
+.parent {
+  background-color: rgba(175, 231, 194, 0.7);
+}
 
+.child-title {
+  display: flex;
+  color: rgb(15, 52, 175);
+  font-size: 1em;
+  padding-left: 0.6rem;
+}
+
+.sub-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
